@@ -1,0 +1,9 @@
+{
+  "apiEndpoint": "https://skipify-web.prismic.io/api/v2",
+  "libraries": [
+    "@/slices"
+  ],
+  "_latest": "0.3.0",
+  "framework": "previousNext",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}

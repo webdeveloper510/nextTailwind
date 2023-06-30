@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+}
+
+.getintouch {
+  border: 2px solid #FAF8F5;
+  border-radius: 64px;
+}
+
+.header-bg,
+.footer-bg {
+  background-color: #121315;
+}
+
+button#dropdownNavbarButton {
+  font-weight: 400;
+  font-size: 15px;
+  color: #FAF8F5;
+  line-height: 20px;
+}
+
+h3.pagenot {
+  font-size: 4rem;
+  padding: 0px;
+  font-weight: 600;
+  line-height: 6rem;
+}
+
+.content {
+  height: 70vh;
+}
+
+a {
+  font-weight: 400;
+  font-size: 15px;
+  color: #FAF8F5;
+  line-height: 20px;
+}
+
+.page-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1.text404 {
+  font-size: 9rem;
+  font-weight: 600;
+  line-height: 8rem;
+}
+
+.colorhr {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+}
+
+/* Home page css */
+
+
+.partner-content {
+  height: 100%;
+  position: relative;
+}
+
+section.partner {
+  margin: 2.6rem;
+  padding: 1.5rem;
+}
+
+.partner-content p {
+  position: absolute;
+  top: 50%;
+  transform: translate(40px, -50%);
+}
+
+.banner-content h1 {
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.start h1 {
+  font-weight: 600;
+  font-size: 220px;
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  line-height: 210px;
+}
+
+
+.border-0 {
+  border-width: 0px !important;
+}
+
+
+.hellofriend.text-white {
+  padding: 18% 5%;
+}
+
+.hellofriend h1::before {
+  content: "";
+  height: 16px;
+  background: #01EAD3;
+  width: 16px;
+  position: absolute;
+  left: -21px;
+  border-radius: 50%;
+  top: 27px;
+}
+
+.hellofriend p::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  background: linear-gradient(90deg, #00EAD3 0%, #97A1FF 100%);
+  height: 250px;
+  width: 3px;
+  top: -24px;
+}
+
+section.header-bg a.active {
+  color: #01EAD3;
+}
+
+.hellofriend.text-white {
+  padding: 18% 5%;
+  height: 100vh;
+}
+
+.anycard.text-white {
+  padding: 8% 5%;
+  height: 100vh;
+}
+
+.anycard p::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  background: linear-gradient(90deg, #00EAD3 0%, #97A1FF 100%);
+  height: 250px;
+  width: 3px;
+  top: -92px;
+}
+
+.anycard h1::before {
+  content: "";
+  height: 16px;
+  background: #01EAD3;
+  width: 16px;
+  position: absolute;
+  left: -21px;
+  border-radius: 50%;
+  top: 27px;
+}
+
+.hooray.text-white {
+  padding: 1% 5% 20%;
+  height: 100vh;
+}
+
+.partner:hover .gif {
+  display: block !important;
+}
+
+.partner:hover .normalimg {
+  display: none !important;
+}
+
+.hooray h1::before {
+  content: "";
+  height: 16px;
+  background: #01EAD3;
+  width: 16px;
+  position: absolute;
+  left: -21px;
+  border-radius: 50%;
+  top: 27px;
+}
+
+.password.text-white {
+  padding: 6% 5%;
+  height: 100vh;
+}
+
+.password p::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  background: linear-gradient(90deg, #00EAD3 0%, #97A1FF 100%);
+  height: 250px;
+  width: 3px;
+  top: -92px;
+}
+
+.password h1::before {
+  content: "";
+  height: 16px;
+  background: #01EAD3;
+  width: 16px;
+  position: absolute;
+  left: -21px;
+  border-radius: 50%;
+  top: 27px;
+}
+
+.learnmore {
+  border-radius: 64px;
+  font-size: 16px;
+}
+
+/* Merchant page css */
+
+.skipify.text-white h1 {
+  position: absolute;
+  top: 50%;
+  transform: translate(10px, -50%);
+}
+
+.skipify.text-white {
+  position: relative;
+  height: 100%;
+}
+
+section.mx-auto.wantto {
+  background: linear-gradient(90deg, #96DBD2 50%, #C8EAE4 0);
+}
+
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #01EAD3 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+  opacity: .75 !important;
+  color: #CACACA !important;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 0 !important;
+}
+
+.rewardpoint {
+  padding: 0px 1.5rem;
+}
+
+/* Partner page css */
+
+.partners-content.text-center h1 {
+  text-align: center;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.financial {
+  background-image: url(./../../public/Partners-Network_Hero.png);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.partners-content.text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 77%;  
+}
+
+.partnerwithus {
+  font-size: 22px;
+}
+
+/* Partner css  */
+
+
+.intant-card {
+  position: relative;
+  height: 100%;
+  background: #96DBD2;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translate(10px, -50%);
+  padding: 3rem;
+}
+
+.points-rewards {
+  position: relative;
+  height: 100%;
+}
+
+.together {
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intantcard {
+  padding: 3rem;
+}
+
+.Demo-ani {
+  background: #121315;
+  padding: 6rem;
+}
+
+.points-rewards p {
+  padding-top: 20px;
+}
+
+.border-b-2 {
+  border-color: #cdcdcd;
+}
+
+/* Shopper css */
+
+.keeper {
+  background: #22222E;
+  border-radius: 14px;
+  color: white;
+  padding: 2rem;
+  height: 100%;
+}
+
+.keeper-border {
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+  height: 2px;
+  margin: 1rem 0px;
+}
+
+.noProblem {
+  text-align: center;
+  border-right: 2px solid #CACACA;
+}
+
+.loveskipify p.desktop {
+  padding: 0px 16.2rem;
+}
+
+
+.shopper-banner .banner-content {
+  position: relative;
+  height: 100%;
+}
+
+.shopper-content {
+  position: absolute;
+  top: 50%;
+  transform: translate(10px, -50%);
+  padding-right: 7rem;
+}
+
+div#dropdownNavbar {
+  position: absolute;
+  margin-left: 19%;
+  top: 50px;
+  background: #121315;
+}
+
+/* About us css */
+
+h1.reinvent-text {
+  text-align: center;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.progress {
+  background: #E1F1EC;
+  overflow: hidden;
+}
+
+section.progress1 {
+  background: #C8EAE4;
+  overflow: hidden;
+}
+
+section.progress2 {
+  background: #AFE1DB;
+  overflow: hidden;
+}
+
+.progess-content {
+  padding: 2.3rem;
+}
+
+.aboutslider {
+  margin: 7px;
+  background: #22222E;
+  border-radius: 16px;
+}
+
+
+.Martin {
+  padding: 1.5rem;
+}
+
+.tittle-border {
+  margin: 20px 0px;
+  height: 2px;
+  background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+}
+
+section.backed.header-bg {
+  padding: 60px 0px;
+}
+
+.wevalue .marchant {
+  padding: 26px;
+  border-bottom: 2px solid #CACACA;
+}
+
+
+.wevalue-content {
+  text-align: center;
+  padding: 50px 75px;
+  height: 100%;
+}
+
+.wevalue-content.left {
+  border-right: 2px solid #cdcdcd;
+}
+
+.wevalue-content.bottom {
+  border-bottom: 2px solid #CDCDCD;
+}
+
+.normal:hover img {
+  display: none;
+}
+
+.normal:hover div {
+  display: block !important;
+}
+
+.Team .slick-prev:before, .Team .slick-next:before {
+  font-size: 44px !important;
+  color: black !important;
+}
+
+.Team .slick-prev {
+  left: 42% !important;
+  bottom: -37px !important;
+  top: unset !important;
+}
+
+.Team .slick-next {
+  right: 0 !important;
+  left: 50% !important;
+  bottom: -37px !important;
+  top: unset !important;
+}
+
+section.skipifyOffices {
+  padding-top: 4%;
+}
+
+
+/* Career css */
+
+.Loremipsum h3 {
+  padding-top: 34px;
+}
+
+.eachother {
+  background: #E1F1EC;
+  padding: 3rem 30px;
+  overflow: hidden;
+}
+
+.eachother1 {
+  background: #C8EAE4;
+  padding: 3rem 30px;
+  overflow: hidden;
+}
+
+.eachother2 {
+  background: #AFE1DB;
+  padding: 3rem 30px;
+  overflow: hidden;
+}
+
+.eachother3 {
+  background: #96DBD2;
+  padding: 3rem 30px;
+  overflow: hidden;
+}
+
+section.company {
+  padding: 60px 0px;
+}
+
+.culture h1 {
+  text-align: center;
+}
+
+.culture p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 21px;
+}
+
+.company .slick-slide.slick-active.slick-current {
+  background: linear-gradient(90deg, #ffffffeb 10%, #EFEFEF 0);
+  margin: 30px 0px;
+  border-radius: 22px;
+}
+
+.Loremipsum {
+  padding-right: 50px;
+}
+
+.company .slick-prev {
+  left: 40%;
+  top: unset;
+  bottom: -7px;
+  z-index: 9;
+}
+
+.company .slick-next {
+  right: 40%;
+  top: unset;
+  bottom: -7px;
+  z-index: 9;
+}
+
+.company .slick-prev:before, .company .slick-next:before {
+  font-size: 45px;
+  color: black;
+}
+
+
+/* Responsive css  */
+
+@media only screen and (max-width: 768px) {
+
+  .oldfriend {
+    display: none;
+  }
+
+  .mobileshopper {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .hellofriend1.text-white p {
+    padding-top: 12px;
+  }
+
+  h3.pagenot {
+    font-size: 48px;
+    padding: 0px;
+    font-weight: 600;
+    line-height: 56px;
+  }
+
+  .hellofriend1.text-white {
+    height: 100%;
+    padding: 30% 0px;
+  }
+
+  .hellofriend1.text-white h1 {
+    font-size: 32px;
+  }
+
+  h1.text404 {
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 135px;
+  }
+
+  button#dropdownNavbarButton {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FAF8F5;
+    padding: 1rem 0px;
+    line-height: 20px;
+    border: 0px;
+  }
+
+  /* Home page css  */
+
+  .partner-content {
+    padding: 4% 1%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding-top: 20px;
+  }
+
+
+  .partner-content p {
+    position: unset;
+    transform: unset;
+  }
+
+  .start h1 {
+    font-weight: 600;
+    font-size: 128px;
+  }
+
+
+  .marchant {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border-bottom: 2px solid #CACACA;
+    border-right: 0px;
+    padding-bottom: 40px;
+  }
+
+  .skipify.text-white h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translate(10px, -50%);
+  }
+
+  img.msliderimg {
+    width: 187.1px !important;
+    height: 387px !important;
+  }
+
+  /* Partner reponsive css  */
+
+  .intantcard {
+    padding: 0rem;
+  }
+
+  .card-overlay {
+    position: absolute;
+    top: 50%;
+    transform: translate(10px, -50%);
+    padding: 1.5rem;
+  }
+
+  .rewardpoint .card-overlay {
+    padding: 1.8rem;
+  }  
+
+  .shopper-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(10px, -50%);
+    padding-right: 3rem;
+  }
+
+  /* About Us Css */
+
+  .wevalue-content {
+    text-align: center;
+    padding: 50px 52px;
+    height: 100%;
+  }
+
+  h1.Honesty {
+    padding-top: 40px;
+  }
+
+  .culture p {
+    text-align: center;
+    width: 58%;
+    margin: auto;
+    padding-top: 21px;
+  }
+
+  section.company {
+    padding: 3rem 30px;
+  }
+
+  .company .slick-slide.slick-active.slick-current {
+    background: linear-gradient(180deg, #ffffffeb 59%, #EFEFEF 0);
+    margin: 30px 0px;
+    border-radius: 22px;
+  }
+
+  section.career1 button {
+    display: none !important;
+  }
+
+  .Loremipsum {
+    padding: 50px;
+  }
+
+
+ 
+}
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 375px) {
+
+  
+
+  h3.pagenot {
+    padding: 1rem 0rem;
+  }
+
+  .keeper {
+    background: #22222E;
+    border-radius: 14px;
+    color: white;
+    padding: 2rem;
+    margin: 10px;
+  }
+
+  .mobilePhone {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .mobileshopper {
+    display: none;
+  }
+
+  section.partner {
+    border-bottom: 2px solid #CDCDCD;
+    margin: 2.6rem;
+    padding: 0px;
+  }
+
+
+  .marchant {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .start h1 {
+    font-weight: 600;
+    font-size: 115px;
+  }
+
+  .partner-content {
+    padding: 3% 1%;
+    text-align: center;
+  }
+
+  .hellofriend1.text-white {
+    padding: 0px;
+  }
+
+  section.mx-auto.wantto {
+    background: linear-gradient(180deg, #96DBD2 50%, #C8EAE4 0);
+  }
+
+  .skipify.text-white {
+    position: relative;
+    height: 200px;
+  }
+
+
+  .skipify.text-white h1 {
+    position: unset;
+    transform: unset;
+  }
+
+  .partners-content.text-center h1 {
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    background: linear-gradient(90deg, #97A1FF 0%, #00EAD3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .card-overlay {
+    position: unset;
+    transform: unset;
+    text-align: center;
+    padding: 1.3rem;
+  }
+
+
+  .Demo-ani {
+    background: #121315;
+    padding: 6rem 0rem;
+  }
+
+  .together {
+    display: block;
+    text-align: center;
+  }
+
+  .noProblem {
+    text-align: center;
+    border-bottom: 2px solid #CACACA;
+    padding-bottom: 28px;
+    border-right: 0px !important;
+  }
+
+  .expert-mobile .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #121315 !important;
+  }
+
+  .shopper-content {
+    position: unset;
+    top: 50%;
+    transform: unset;
+    padding-right: 0rem;
+  }
+
+  .aboutslider {
+    margin: 33px;
+    background: #22222E;
+    border-radius: 16px;
+  }
+
+  .world-best.text-center {
+    padding: 0px 40px;
+  }
+
+  p.Team-text.expert-mobile {
+    padding: 0px 32px;
+  }
+
+  section.Team.my-8.mx-auto .slick-arrow {
+    display: none !important;
+  }
+
+  .Team .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black !important;
+  }
+
+  section.skipifyOffices.my-8.mx-auto {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+
+  .wevalue-content {
+    text-align: center;
+    padding: 44px 37px;
+    height: 100%;
+  }
+
+  .wevalue {
+    padding: 0px 20px;
+  }
+
+  .culture h1 {
+    padding: 0px 32px;
+    text-align: center;
+  }
+
+  .culture p {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 21px;
+  }
+
+  .company .slick-slide.slick-active.slick-current {
+    background: linear-gradient(180deg, #ffffffeb 35%, #EFEFEF 0);
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    border-radius: 0px;
+  }
+
+  .Loremipsum {
+    padding: 2rem 1.5rem;
+  }
+
+}
+
+
+/* Animated css */
+
+
+section.header-bg.p-3.textes {
+  border-top: 0.2px solid #24262a;
+  border-bottom: 0.2px solid #24262a;
+}
+
+.first.active, .second.active, .third.active, .four.active {
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-name: slideInright;
+}
+
+.second.active {
+  animation-duration: 4s;
+}
+
+.third.active {
+  animation-duration: 6s;
+}
+
+.four.active {
+  animation-duration: 6s;
+}
+
+@keyframes slideInright {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

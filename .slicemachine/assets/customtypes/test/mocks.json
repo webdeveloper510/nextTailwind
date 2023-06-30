@@ -1,0 +1,13 @@
+{
+  "test": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Culpa duis consectetur occaecat commodo."
+        }
+      }
+    ]
+  }
+}
